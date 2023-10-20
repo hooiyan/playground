@@ -1,4 +1,5 @@
 import "./App.css";
+import { Input } from "./components/Input";
 import { Text } from "./components/Text";
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       </Text>
 
       <Text emmanual="haha">This is a text node with no as</Text>
+
+      <Input value="test" emmanual="hello" />
     </>
   );
 }
